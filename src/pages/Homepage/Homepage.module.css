@@ -1,0 +1,132 @@
+.homepageContainer{
+    width: 100%;
+}
+
+.infoSectionOne{
+    width: 60%;
+    margin: 3rem auto 4rem auto;
+}
+
+.heading{
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.75rem;
+    letter-spacing: 2px;
+    margin-bottom: 1.25rem;
+}
+
+.body{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body img, .info{
+    margin: .75rem;
+}
+
+.info{
+    align-self: flex-start;
+}
+
+.info h3{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.info p{
+    font-size: 1.1rem;
+    color: #00000090;
+    line-height: 1.3rem;
+}
+
+.infoSectionTwo{
+    width: 85%;
+    margin: 4rem auto 5rem auto;
+}
+
+.infoSectionTwo img{
+    width: 100%;
+}
+
+.getInTouchSection{
+    width: 40%;
+    margin: 1rem auto;
+}
+
+.getInTouchSection h2{
+    text-align: center;
+    margin: 1.25rem auto;
+    font-size: 1.75rem;
+    line-height: 2rem;;
+}
+
+.formContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formContainer input{
+    width: calc(50% - 1rem);
+    margin: .5rem;
+    height: 3rem;
+    border: none;
+    border-bottom: 9px solid #ffd45a;
+    outline: none;
+    padding: 1.5rem 1rem;
+    background-color: #ffd45a4d;
+    transition: all .3s ease;
+}
+
+.formContainer input:last-of-type{
+    width: calc(100% - 1rem);
+    margin: .5rem;
+    height: 3rem;
+    border: none;
+    border-bottom: 9px solid #ffd45a;
+    outline: none;
+    padding: 1.25rem 1rem;
+    background-color: #ffd45a4d;
+}
+
+.formContainer input::placeholder{
+    font-size: .95rem;
+    font-family: inherit;
+}
+
+.formContainer input:hover{
+    border-bottom: 9px solid transparent;
+}
+
+.formContainer button{
+    display: block;
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    background-color: #ffd45a;
+    margin: 2rem auto;
+    font-size: 1.05rem;
+    transition: background-color .4s ease;
+}
+
+.formContainer button:hover{
+    background-color: #ffd45a4d;
+}
+
+.footer{
+    text-align: center;
+    margin: 5rem auto 0 auto;
+}
+
+.links a{
+    margin: .5rem;
+}
+
+.footer p{
+    font-weight: 500;
+    margin: .75rem 0;
+}

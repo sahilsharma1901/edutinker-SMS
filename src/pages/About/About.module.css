@@ -1,0 +1,82 @@
+.aboutContainer{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sectionOne, .sectionTwo, .sectionThree{
+    width: 100%;
+    margin: 4rem auto;
+}
+
+.sectionOne{
+    margin-bottom: 2rem;
+}
+
+.sectionOne h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #3c858e;
+    margin: 2.5rem auto 1.5rem auto;
+}
+
+.sectionOne p{
+    width: 100%;
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    color: #00000090;
+    margin-bottom: 1.25rem;
+}
+
+.quote{
+    width: 90%;
+    text-align: center;
+    margin: 1rem auto;
+    letter-spacing: 1.5px;
+    font-size: 1.5rem;
+    color: #659fad;
+}
+
+.sectionTwo h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #ffd45a;
+    margin: 2.5rem auto 1.5rem auto;
+}
+
+.sectionTwo p{
+    width: 100%;
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    color: #00000090;
+}
+
+.sectionThree h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #3c858e;
+    margin: 2.5rem auto 1.5rem auto;
+}
+
+.sectionThree p{
+    width: 100%;
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    color: #00000090;
+}
+
+.footer{
+    text-align: center;
+    margin: 5rem auto 0 auto;
+}
+
+.links a{
+    margin: .5rem;
+}
+
+.footer p{
+    font-weight: 500;
+    margin: .75rem 0;
+}
