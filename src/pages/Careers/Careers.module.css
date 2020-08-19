@@ -1,0 +1,183 @@
+.careerContainer{
+    width: 100%;
+}
+
+.mainImage{
+    width: 65%;
+    margin: 1rem auto;
+    position: relative;
+}
+
+.mainImage img{
+    width: 100%;
+}
+
+.mainImage p{
+    width: 35%;
+    position: absolute;
+    top: 17.5rem;
+    left: 7.5rem;
+    letter-spacing: .75px;
+    line-height: 1.25rem;
+}
+
+.rolesHeading{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.roles{
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.role{
+    width: calc(33% - 2rem);
+    background-color: #d8f1f6;
+    height: 18rem;
+    padding: 1rem;
+    margin: 1rem;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.rear{
+    padding: 1rem;
+}
+
+.rear ul{
+    list-style: disc;
+}
+
+.rear ul li{
+    margin-bottom: .75rem;
+    font-size: .8rem;
+}
+
+.front{
+    text-align: center;
+}
+
+.front p:first-of-type{
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+.front img{
+    margin-bottom: 1rem;
+    padding: 2rem;
+    background-color: #d1e9f3;
+    border-radius: 30%;
+}
+
+.details{
+    position: absolute;
+    bottom: .75rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: .85rem;
+    color: #8fa5ac;
+    font-weight: 500;
+}
+
+.applicationForm{
+    width: 30%;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formHeading{
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #522662;
+    margin: 1rem;
+    text-align: center;
+}
+
+.applicationForm input{
+    width: calc(50% - 1rem);
+    margin: .5rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    background-color: #d8f0f7;
+    border-radius: 5px;
+}
+
+.applicationForm input:hover{
+    background-color: #ffde5f;
+}
+
+.applicationForm input:focus{
+    background-color: #ffde5f4d;
+}
+
+.applicationForm select{
+    width: calc(50% - 1rem);
+    margin: .5rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #d8f0f7;
+}
+
+.applicationForm select option[data-default]{
+    color: #726293;
+}
+
+.applicationForm input:last-of-type{
+    width: calc(50% - 1rem);
+    margin: .5rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    background-color: #d8f0f7;
+}
+
+.applicationForm input::placeholder{
+    font-size: .85rem;
+    font-family: inherit;
+    color: #726293;
+}
+
+.applicationForm button{
+    display: block;
+    width: calc(100% - 1rem);
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    background-color: #ffd45a;
+    margin: 2rem auto;
+    font-size: .9rem;
+    transition: background-color .4s ease;
+    color: #000000;
+}
+
+.footer{
+    text-align: center;
+    margin: 5rem auto 0 auto;
+}
+
+.links a{
+    margin: .5rem;
+}
+
+.footer p{
+    font-weight: 500;
+    margin: .75rem 0;
+}
